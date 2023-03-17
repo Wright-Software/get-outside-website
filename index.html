@@ -33,7 +33,12 @@
       type="image/svg+xml"
     />
     <link
-      href="assets/css/bootstrap.min.css"
+      href="assets/css/bootstrap.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link
+      href="assets/css/style.css"
       rel="stylesheet"
       crossorigin="anonymous"
     />
@@ -108,7 +113,17 @@
         style="max-height: 186px; max-width: 186px"
       />
       <br />
-      <img src="assets/img/get-outside-logo.svg" style="min-width: 360px" />
+      <picture>
+        <source
+          srcset="assets/img/get-outside-logo.svg"
+          style="min-width: 360px"
+          media="(prefers-color-scheme: dark)"
+        />
+        <img
+          src="assets/img/get-outside-logo-dark.svg"
+          style="min-width: 360px"
+        />
+      </picture>
       <h4>Helping you find places to go and things to do</h4>
       <br />
       <a class="btn btn-primary" href="/install">Install</a>
