@@ -11,3 +11,16 @@
     color: #fff;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.tutorial-image {
+  max-width: 50%;
+  max-height: 50em;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
